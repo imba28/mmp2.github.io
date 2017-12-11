@@ -1,3 +1,6 @@
+/* thx johannes :-)
+ * https://github.com/designrubenz/jsidiots-gulpfile
+*/
 var src = './src';
 var dest = './build';
 var notjssrc = '!' + src + '/js/main.js';
