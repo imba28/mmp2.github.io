@@ -1,0 +1,43 @@
+main {
+    color: $black;
+    flex: 1 1;
+    margin-left: $menu-width;
+}
+
+.section {
+    padding: 3em 3em 3em 6em;
+
+    border-bottom: 1px solid $black-lighter;
+    > h1 {
+        font-weight: 300;
+        margin-bottom: 2em;
+    }
+
+    &:first-of-type {
+        margin-top: 0;
+    }
+
+    .section__container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .section__article {
+    }
+
+    .section__article--quart {
+        flex: 0 0 25%;
+    }
+
+    .section__article--third {
+        flex: 0 0 33.33%;
+    }
+
+    .section__article--half {
+        flex: 0 0 50%;
+    }
+
+    .section__article--full {
+        flex: 0 0 100%;
+    }
+}
