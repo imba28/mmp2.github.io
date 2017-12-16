@@ -1,10 +1,12 @@
 .btn{
-
+      display: flex;
+      flex-direction: column;
 
       .btn__type{
         text-transform: uppercase;
         margin-bottom: 1em;
         font-size: 0.8em;
+        align-self: center;
       }
 
      .btn__default{
@@ -87,5 +89,7 @@
     color:$white;
     background:#39e600;
   }
-
+  .code__container{
+    align-self: center;
+  }
 }
