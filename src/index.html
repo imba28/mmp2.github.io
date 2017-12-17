@@ -4,6 +4,7 @@
         <meta charset="utf-8">
 
         <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,700,900" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,700" rel="stylesheet">
 
         <link rel="stylesheet" type="text/css" media="screen" href="style.css">
         <script src="js/main.js"></script>
@@ -122,9 +123,106 @@
             </section>
             <section id="colors" class="section">
                 <h1>Colors</h1>
+                <div class="section__container">
+                  <div class="palette">
+                    <div class="palette__item">
+                      <div class="palette__item__color palette__item__color--blue-light"></div>
+                      <div class="palette__item__text">#08ACF2<br>$blue-light</div>
+                    </div>
+
+                    <div class="palette__item">
+                      <div class="palette__item__color palette__item__color--blue"></div>
+                      <div class="palette__item__text">#0091EA<br>$blue</div>
+                    </div>
+
+                    <div class="palette__item">
+                      <div class="palette__item__color palette__item__color--blue-dark"></div>
+                      <div class="palette__item__text">#2384BF<br>$blue-dark</div>
+                    </div>
+
+                    <div class="palette__item">
+                      <div class="palette__item__color palette__item__color--grey"></div>
+                      <div class="palette__item__text">#EAEAEA<br>$grey</div>
+                    </div>
+
+                    <div class="palette__item">
+                      <div class="palette__item__color palette__item__color--grey-dark"></div>
+                      <div class="palette__item__text">#909090<br>$grey-dark</div>
+                    </div>
+
+                    <div class="palette__item">
+                      <div class="palette__item__color palette__item__color--success"></div>
+                      <div class="palette__item__text">#55B387<br>$green</div>
+                    </div>
+
+                    <div class="palette__item">
+                      <div class="palette__item__color palette__item__color--error"></div>
+                      <div class="palette__item__text">#FC5D60<br>$red</div>
+                    </div>
+                  </div>
+
+                  <div class="section__description">
+                    Die primäre Farbe des Projekts ist das frische <code>$blue</code>. Einerseits vermittelt die Farbe Blau eine beruhigende Wirkung und hilft Stress abzubauen. Diese Eigenschaft ist sehr wichtig, da dieses Projekt Aufgaben verwaltet, welche mit Stress und Zeitdruck in Verbindung gebracht werden. Andererseits wird die Farbe mit Pünktlichkeit und Genauigkeit in Verbindung gebracht. Es sollte immer die Farbe <code>$blue</code> verwendet werden, ist jedoch eine Abstufung notwendig, kann auf <code>$blue-light</code> oder <code>$blue-dark</code> zurückgegriffen werden.<br></br>
+
+                    Als zweite Farbe kann das zurückhaltende <code>$grey</code> verwendet werden. Diese Farbe wurde gewählt, da dieses Projekt auf einer starken Farbe aufbaut. Eine Abstufung bietet <code>$grey-dark</code>.<br></br>
+
+                    Um dem Nutzer positive Rückmeldungen zu vermitteln, kann die Farbe <code>$green</code> eingesetzt werden. <code>$red</code> wird hingegen für Benachrichtigungen oder Fehlermeldungen genutzt.
+                  </div>
+                </div>
             </section>
             <section id="elements" class="section">
                 <h1>Elements</h1>
+                <h2>Buttons</h2>
+                <p>These are the three basic buttons that can be used in our application.</p>
+                <div class="section__container--buttons">
+                  <article class="section__article--quart">
+                    <div class="btn">
+                      <div class="btn__type">
+                        Default button
+                      </div>
+                      <button class="btn__default">Button</button>
+                      <p class="code__container">class="btn__default"</p>
+                      <code>&lt;button class=&quot;btn__default&quot;&gt;&lt;/button&gt;</code>
+                    </div>
+                  </article>
+                  <article class="section__article--quart">
+                    <div class="btn">
+                      <div class="btn__type">
+                        Secondary button
+                      </div>
+                      <button class="btn__secondary">Button</button>
+                      <p class="code__container">class="btn__secondary"</p>
+                      <code>&lt;button class=&quot;btn__secondary&quot;&gt;&lt;/button&gt;</code>
+                    </div>
+                  </article>
+                  <article class="section__article--quart">
+                    <div class="btn">
+                      <div class="btn__type">
+                        Green button
+                      </div>
+                      <button class="btn__green">Button</button>
+                      <p class="code__container">class="btn__green"</p>
+                      <code>&lt;button class=&quot;btn__green&quot;&gt;&lt;/button&gt;</code>
+                    </div>
+                  </article>
+                </div>
+              <h2>Links</h2>
+              <article class="section__article--quart">
+                <div class="link">
+                  <div class="link__type">
+                    Inline links
+                  </div>
+                    <p>Lorem ipsum <a href="" class="link__inline">I'm an inline link!</a> Lorem ipsum.</p>
+                  <code>&lt;a href=&quot;&quot; class=&quot;link__inline&quot;&gt;I'm an inline link!&lt;/a&gt;</code>
+                </div>
+                <div class="link">
+                  <div class="link__type">
+                    Read more links
+                  </div>
+                    <p>Lorem ipsum dolet virtu ispum lorem.</p><a href="" class="link__more">I'm a read more link!</a>
+                    <code>&lt;a href=&quot;&quot; class=&quot;link__more&quot;&gt;I'm a read more link!&lt;/a&gt;</code>
+                </div>
+              </article>
             </section>
             <section id="logo" class="section">
                 <h1>Logo</h1>

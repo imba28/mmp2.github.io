@@ -1,3 +1,7 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
 body {
     font-family: 'Nunito', sans-serif;
     background: $white-dark;
@@ -17,4 +21,18 @@ a {
     &:hover {
         color: $white;
     }
+}
+
+p{
+    font-size: 1.3em;
+    font-weight: 400;
+    margin-bottom: 2em;
+}
+
+code {
+  background-color: #eee;
+  border: 1px solid #999;
+  display: inline-block;
+  padding: 20px;
+  margin-top: 2em;
 }
