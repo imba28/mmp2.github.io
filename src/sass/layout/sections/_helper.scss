@@ -17,4 +17,18 @@
   #text-effects > h2 {
     margin-top: 0;
   }
+
+  #grid {
+    .row {
+      margin-bottom: .5em;
+
+      [class^="row__col--"] {
+        font-size: 0.8em;
+
+        .box {
+          margin: 0 .5em;
+        }
+      }
+    }
+  }
 }
