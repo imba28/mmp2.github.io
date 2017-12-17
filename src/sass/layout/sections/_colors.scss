@@ -1,0 +1,46 @@
+  .palette__item {
+    display: inline-block;
+    width: 10em;
+    margin-right: 2em;
+    margin-bottom: 3em;
+    box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.1);
+
+    .palette__item__color {
+      height: 9em;
+    }
+
+    .palette__item__color--blue {
+        background-color: $blue;
+    }
+
+    .palette__item__color--blue-dark {
+        background-color: $blue-dark;
+    }
+
+    .palette__item__color--blue-light {
+        background-color: $blue-light;
+    }
+
+    .palette__item__color--grey {
+        background-color: $grey;
+    }
+
+    .palette__item__color--grey-dark {
+        background-color: $grey-dark;
+    }
+
+    .palette__item__color--error {
+        background-color: $red;
+    }
+
+    .palette__item__color--success {
+        background-color: $green;
+    }
+
+    .palette__item__text {
+      overflow: auto;
+      line-height: 1.3em;
+      padding: 1.3em;
+      background-color: #fcfcfc;
+    }
+  }

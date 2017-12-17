@@ -5,7 +5,7 @@ main {
 }
 
 .section {
-    padding: 3em 3em 3em 6em;
+    padding: 3em 3em 5em 6em;
 
     border-bottom: 1px solid $black-lighter;
     > h1 {
@@ -18,8 +18,18 @@ main {
     }
 
     .section__container {
+        width: 100%;
         display: flex;
         flex-wrap: wrap;
+    }
+
+    .section__description {
+      width: 70%;
+      margin-top: 2em;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 300;
+      font-size: 1.1em;
+      line-height: 1.7em;
     }
 
     .section__article {
