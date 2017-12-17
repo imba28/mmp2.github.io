@@ -7,8 +7,8 @@
     width: $menu-width;
     box-sizing: border-box;
 
-    background: $primary-color;
-    text-shadow: 1px 1px 0 $primary-color-dark;
+    background: $blue;
+    text-shadow: 1px 1px 0 $blue-dark;
 
     .logo {
         .logo__title {
@@ -18,7 +18,7 @@
         .logo__subtitle {
             display: block;
             font-size: 1.25em;
-            color: $primary-color-lighter;
+            color: $blue-lighter;
             margin-bottom: 3em;
         }
     }
@@ -39,7 +39,7 @@
         font-size: 0.75em;
         text-transform: uppercase;
         margin-bottom: 1em;
-        color: $primary-color-lighter;
+        color: $blue-lighter;
     }
 
     .nav__item {
@@ -49,7 +49,7 @@
     }
 
     .nav__item--active {
-        background: $primary-color-light;
+        background: $blue-light;
         font-weight: 700;
         border-radius: 5px;
         text-shadow: none;
