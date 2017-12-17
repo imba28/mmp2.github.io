@@ -22,6 +22,12 @@ main {
         flex-wrap: wrap;
     }
 
+  .section__container--buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
     .section__article {
     }
 
@@ -41,3 +47,4 @@ main {
         flex: 0 0 100%;
     }
 }
+
