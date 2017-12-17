@@ -32,6 +32,12 @@ main {
       line-height: 1.7em;
     }
 
+    .section__container--buttons {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+    }
+
     .section__article {
     }
 

@@ -1,0 +1,96 @@
+.btn{
+      display: flex;
+      flex-direction: column;
+
+      .btn__type{
+        text-transform: uppercase;
+        margin-bottom: 1em;
+        font-size: 0.8em;
+        align-self: center;
+      }
+
+     .btn__default{
+       font-family: 'Nunito', sans-serif ;
+       font-weight: 300 ;
+       font-size: 1.5em ;
+       -webkit-box-sizing: content-box;
+       -moz-box-sizing: content-box;
+       box-sizing: content-box;
+       width: 250px;
+       height: 70px;
+       cursor: pointer;
+       margin: 0 auto;
+       border: 2px solid $blue;
+       -webkit-border-radius: 40px;
+       border-radius: 40px;
+       color:$blue;
+       background-color: $white-dark;
+       text-align: center;
+       -o-text-overflow: clip;
+       text-overflow: clip;
+       letter-spacing: 1px;
+
+     }
+
+    .btn__default:hover{
+        color:$white;
+        background:$blue;
+    }
+
+    .btn__secondary{
+      font-family: 'Nunito', sans-serif ;
+      font-weight: 300 ;
+      font-size: 1.5em ;
+      -webkit-box-sizing: content-box;
+      -moz-box-sizing: content-box;
+      box-sizing: content-box;
+      width: 250px;
+      height: 70px;
+      cursor: pointer;
+      margin: 0 auto;
+      border: 2px solid #ff0000;
+      -webkit-border-radius: 40px;
+      border-radius: 40px;
+      color:#ff0000;
+      background-color: $white-dark;
+      text-align: center;
+      -o-text-overflow: clip;
+      text-overflow: clip;
+      letter-spacing: 1px;
+    }
+
+  .btn__secondary:hover{
+    color:$white;
+    background:#ff0000;
+  }
+
+  .btn__green{
+    font-family: 'Nunito', sans-serif ;
+    font-weight: 300 ;
+    font-size: 1.5em ;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 250px;
+    height: 70px;
+    cursor: pointer;
+    margin: 0 auto;
+    border: 2px solid #39e600;
+    -webkit-border-radius: 40px;
+    border-radius: 40px;
+    color:#39e600;
+    background-color: $white-dark;
+    text-align: center;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    letter-spacing: 1px;
+  }
+  .btn__green:hover{
+    color:$white;
+    background:#39e600;
+  }
+  .code__container{
+    align-self: center;
+
+  }
+}
