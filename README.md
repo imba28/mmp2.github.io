@@ -12,9 +12,9 @@
 - [x] Typography
 - [x] Colors
 - [ ] Logo
-- [ ] CSS Methodology
-    - [ ] Code Style
-    - [ ] Class naming conventions
+- [x] CSS Methodology
+    - [x] Code Style
+    - [x] Class naming conventions
 - [ ] Components
     - [x] Buttons
     - [x] Links
