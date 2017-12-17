@@ -95,3 +95,21 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+.blockquote {
+  background: #f9f9f9;
+  border-left: .75em solid $blue-light;
+  margin: 0 1em;
+  padding: 1em;
+
+  .blockquote__author {
+    color: $grey-dark;
+    margin-top: 1em;
+    font-style: italic;
+    font-size: 0.9em;
+
+    &::before {
+      content: "— "
+    }
+  }
+}
