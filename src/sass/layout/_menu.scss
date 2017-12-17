@@ -10,6 +10,14 @@
     background: $blue;
     text-shadow: 1px 1px 0 $blue-dark;
 
+    a {
+        color: $white-dark;
+
+        &:hover {
+            color: $white;
+        }
+    }
+
     .logo {
         .logo__title {
             margin-bottom: 0;

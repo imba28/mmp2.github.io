@@ -33,6 +33,11 @@
                             Hierarchy
                         </a>
                     </li>
+                    <li class="nav__item">
+                        <a href="#methodology">
+                            Methodology
+                        </a>
+                    </li>
                     <li class="nav__category">
                         User Interface
                     </li>
@@ -142,6 +147,60 @@
                     </article>
                 </div>
             </section>
+            <section id="methodology" class="section">
+                <h1>Methodology</h1>
+                <section class="section__container">
+                    <article class="section__article--full">
+                        <h3>Namenskonventionen</h3>
+                        <a href="http://getbem.com/" target="_blank">BEM</a> - Block:Element:Modifier
+
+                        <h5>Block</h5>
+                        <p>
+                            Ein Bereich mit aussagekräftiger Bezeichnung.
+                        </p>
+                        <h5>Element</h5>
+                        <p>
+                            Ein Element, das nur in einem Block vorkommen kann.
+                        </p>
+                        <h5>Modifier</h5>
+                        <p>
+                            Eine Eigenschaft, die das Element modifiziert.
+                        </p>
+                        Beispiel:<br />
+                        <code class="display--iblock">
+                            <pre>&lt;nav class="nav"&gt;
+&lt;ul&gt;
+&lt;li class="nav__item nav__item--active"&gt;A&lt;/li&gt;
+&lt;li class="nav__item"&gt;B&lt;/li&gt;
+&lt;li class="nav__item"&gt;C&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/nav&gt;</pre>
+                        </code>
+                        <p>
+                            Helper Klassen dürfen auch ohne einen Block existieren. Es gilt pro Klasse eine Eigenschaft.
+                        </p>
+                        <p>
+                            Beispiel:
+                        </p>
+                        <code class="display--iblock">
+                            <pre>&lt;span class="text--italic"&gt;Hello there&lt;/span&gt;</pre>
+                            <pre>&lt;span class="display--none"&gt;I'm a ninja.&lt;/span&gt;</pre>
+                        </code>
+                        <h3>Code style</h3>
+                        <ul>
+                            <li>
+                                Zwei Leerzeichen, soft-tab Indentation
+                            </li>
+                            <li>
+                                Vor der öffnenden, geschwungenen Klammer der Deklaration steht immer ein Leerzeichen
+                            </li>
+                            <li>
+                                Inline Regeln im HTML Dokument vermeiden.
+                            </li>
+                            </ul>
+                        </article>
+                    </section>
+                </section>
             <section id="colors" class="section">
                 <h1>Colors</h1>
                 <div class="section__container">
