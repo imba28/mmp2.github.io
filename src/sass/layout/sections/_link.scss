@@ -8,12 +8,12 @@
     align-self: center;
   }
   a{
-    color: $primary-color;
+    color: $blue;
     text-decoration: none;
     cursor: pointer;
 
     &:hover {
-      color: $primary-color-light;
+      color: $blue-light;
     }
   }
   .link__inline{

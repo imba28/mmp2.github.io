@@ -1,3 +1,7 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
 body {
     font-family: 'Nunito', sans-serif;
     background: $white-dark;
@@ -11,24 +15,80 @@ body {
 }
 
 a {
-    color: $white-dark;
+    color: $blue;
     text-decoration: none;
 
     &:hover {
-        color: $white;
+        color: $blue-light;
     }
 }
 
-p{
+
+article, section {
+  margin-bottom: 1em;
+
+  > h1,h2,h3,h4,h5,h6 {
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+/*p {
     font-size: 1.3em;
     font-weight: 400;
     margin-bottom: 2em;
-}
+}*/
 
 code {
-  background-color: #eee;
-  border: 1px solid #999;
-  display: inline-block;
-  padding: 20px;
-  margin-top: 2em;
+  padding: 2px 4px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  display: inline;
+
+  font-size: .8em;
+  color: #c0341d;
+  background-color: #fcedea;
+
+  pre {
+    margin: 0;
+  }
+}
+
+.code--inline {
+  display: inline;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.examplecode {
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.1);
+  padding: 2em 1em 1em 1em;
+  background: $white;
+  position: relative;
+  margin-bottom: 0;
+
+  &::before {
+    top: 0;
+    left: 0;
+    padding: .25em;
+    background-color: $blue-lighter;
+    color: $white;
+    content: "example";
+    position: absolute;
+    font-size: 0.8em;
+  }
+}
+
+.exampletext {
+  padding: 1em;
+  margin-bottom: 0;
+  font-size: 1.25em;
+  @include linearGradientHorizontal(rgba($black, 0.05), rgba($black, 0));
+  box-shadow: 1em 0 1em rgba($black, 0.05) inset;
 }

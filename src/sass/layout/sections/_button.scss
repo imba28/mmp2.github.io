@@ -20,10 +20,10 @@
        height: 70px;
        cursor: pointer;
        margin: 0 auto;
-       border: 2px solid $primary-color;
+       border: 2px solid $blue;
        -webkit-border-radius: 40px;
        border-radius: 40px;
-       color:$primary-color;
+       color:$blue;
        background-color: $white-dark;
        text-align: center;
        -o-text-overflow: clip;
@@ -34,7 +34,7 @@
 
     .btn__default:hover{
         color:$white;
-        background:$primary-color;
+        background:$blue;
     }
 
     .btn__secondary{
@@ -48,10 +48,10 @@
       height: 70px;
       cursor: pointer;
       margin: 0 auto;
-      border: 2px solid #ff0000;
+      border: 2px solid $red;
       -webkit-border-radius: 40px;
       border-radius: 40px;
-      color:#ff0000;
+      color: $red;
       background-color: $white-dark;
       text-align: center;
       -o-text-overflow: clip;
@@ -61,7 +61,7 @@
 
   .btn__secondary:hover{
     color:$white;
-    background:#ff0000;
+    background: $red;
   }
 
   .btn__green{
@@ -75,10 +75,10 @@
     height: 70px;
     cursor: pointer;
     margin: 0 auto;
-    border: 2px solid #39e600;
+    border: 2px solid $green;
     -webkit-border-radius: 40px;
     border-radius: 40px;
-    color:#39e600;
+    color:$green;
     background-color: $white-dark;
     text-align: center;
     -o-text-overflow: clip;
@@ -87,10 +87,9 @@
   }
   .btn__green:hover{
     color:$white;
-    background:#39e600;
+    background: $green;
   }
   .code__container{
     align-self: center;
-
   }
 }
