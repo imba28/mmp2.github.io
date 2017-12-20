@@ -17,6 +17,9 @@ var changed = require('gulp-changed');
 var imagemin = require('gulp-imagemin');
 var pngquant = require('imagemin-pngquant');
 
+const sourcemaps = require('gulp-sourcemaps');
+const babel = require('gulp-babel');
+
 // SASS to CSS
 gulp.task('sass', function() {
     return gulp.src(src + '/sass/**/*.scss')
@@ -46,8 +49,13 @@ gulp.task('js', ['jslint'], function() {
             src + '/js/**/*.js',
             notjssrc
         ])
+        .pipe(sourcemaps.init())
+        .pipe(babel({
+            presets: ['env']
+        }))
         .pipe(concat('main.js'))
-        .pipe(gulp.dest(src + '/js/'))
+        .pipe(sourcemaps.write('.'))
+        .pipe(gulp.dest(src+'/js/'))
         .pipe(browserSync.stream());
 });
 
@@ -68,7 +76,7 @@ gulp.task('jslint', function() {
 
 // start a server for static content + watch scss/html files
 // make sure you have the chrome livereload plugin installed (s. http://livereload.com/)
-gulp.task('serve', ['sass'], function() {
+gulp.task('serve', ['sass', 'js'], function() {
     browserSync.init({
         server: src
     });
