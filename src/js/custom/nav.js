@@ -5,4 +5,4 @@
             $(this).parent().addClass("nav__item--active");
         });
     });
-}))($);
+})($);
