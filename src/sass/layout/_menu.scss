@@ -2,7 +2,7 @@
     position: fixed;
     left: 0;
     top: 0;
-    padding: 3em 4em 2em 4em;
+    padding: 4em 4em 2em 4em;
     height: 100%;
     width: $menu-width;
     box-sizing: border-box;
@@ -21,6 +21,7 @@
     .logo {
         .logo__title {
             margin-bottom: 0;
+            font-weight: 500;
         }
 
         .logo__subtitle {
