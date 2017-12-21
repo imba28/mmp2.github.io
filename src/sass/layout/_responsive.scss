@@ -52,5 +52,26 @@
 }
 
 @media (max-width: 576px) {
+  .logo__sizes {
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
 
+    .tom-logo {
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+
+  .logo__background-usage {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+
+    .logo__background-usage__example:first-child {
+      margin-right: 0;
+      margin-bottom: 3em;
+    }
+  }
 }
