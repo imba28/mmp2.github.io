@@ -42,7 +42,7 @@ gulp.task('sass-prod', function() {
 });
 
 // concat js, lib folder files come first
-gulp.task('js', ['jslint'], function() {
+gulp.task('js', [], function() {
     return gulp.src([
             'node_modules/jquery/dist/jquery.slim.min.js',
             src + '/js/lib/*.js',
