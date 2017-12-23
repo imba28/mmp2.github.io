@@ -2,7 +2,7 @@
     position: fixed;
     left: 0;
     top: 0;
-    padding: 3em 4em 2em 4em;
+    padding: 4em 2.9em 2em 2.9em;
     height: 100%;
     width: $menu-width;
     box-sizing: border-box;
@@ -10,9 +10,18 @@
     background: $blue;
     text-shadow: 1px 1px 0 $blue-dark;
 
+    a {
+        color: $white-dark;
+
+        &:hover {
+            color: $white;
+        }
+    }
+
     .logo {
         .logo__title {
             margin-bottom: 0;
+            font-weight: 500;
         }
 
         .logo__subtitle {
@@ -49,9 +58,9 @@
     }
 
     .nav__item--active {
-        background: $blue-light;
-        font-weight: 700;
+        background-color: $blue-light;
         border-radius: 5px;
         text-shadow: none;
+        transition: background-color 0.5s ease;
     }
 }
