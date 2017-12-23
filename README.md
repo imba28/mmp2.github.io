@@ -11,7 +11,8 @@
 - [ ] Introduction
 - [x] Typography
 - [x] Colors
-- [ ] Logo
+- [x] Logo
+- [x] Spelling
 - [x] CSS Methodology
     - [x] Code Style
     - [x] Class naming conventions

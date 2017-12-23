@@ -17,10 +17,6 @@
     .section .section__description {
       width: 100%;
     }
-
-    .logo__background-usage .logo__background-usage__example--third {
-      margin-right: 0;
-    }
 }
 
 @media (max-width: 992px) {
@@ -79,10 +75,9 @@
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
+  }
 
-    .logo__background-usage__example:first-child {
-      margin-right: 0;
-      margin-bottom: 3em;
-    }
+  .example {
+    margin-right: 0;
   }
 }
