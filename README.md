@@ -24,7 +24,7 @@
     - [x] Forms
     - [x] Input
     - [ ] Navs
-    - [ ] Media Block
+    - [x] Media Block
 - [x] Helper
     - [x] Icons
     - [x] Display
