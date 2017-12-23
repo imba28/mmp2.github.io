@@ -85,12 +85,12 @@
     color: $grey-darker;
   }
 
-  input {
+  .input__radio, .input__checkbox {
     position: relative;
     opacity: 0;
     cursor: pointer;
 
-    & + label {
+    + label {
       padding-left: 0.25em;
       cursor: pointer;
       -webkit-touch-callout: none;
