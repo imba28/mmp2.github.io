@@ -1,8 +1,9 @@
 pages:
   script:
-  - bundle install
-  - npm install
-  - bundle exec jekyll build -d public
+  - gem install jekyll
+  - jekyll build -s 'src' -d public
   artifacts:
     paths:
     - public
+  only:
+  - master
