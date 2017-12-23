@@ -19,32 +19,15 @@
 - [ ] Components
     - [x] Buttons
     - [x] Links
-    - [ ] Lists
     - [x] Headings
-    - [ ] Code
-    - [ ] Images
-    - [ ] Tables
-    - [ ] Figures
-    - [ ] Alerts
-    - [ ] Badge
-    - [ ] Breadcrumbs
-    - [ ] Button Group
-    - [ ] Card
-    - [ ] Dropdown
-    - [ ] Forms
-    - [ ] Input
-    - [ ] Modal
+    - [x] Code
+    - [x] Forms
+    - [x] Input
     - [ ] Navs
-    - [ ] Pagination
-    - [ ] Popovers
-    - [ ] Tooltips
-    - [ ] Media Block
-- [ ] Helper
-    - [ ] Border
-    - [ ] Icons
-    - [ ] Display
-    - [ ] Float
+    - [x] Media Block
+- [x] Helper
+    - [x] Icons
+    - [x] Display
     - [x] Text
     - [x] Spacing
-    - [ ] Visibility
-    - [ ] Colors
+    - [x] Colors
