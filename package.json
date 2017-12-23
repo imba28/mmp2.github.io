@@ -23,12 +23,11 @@
     "gulp-sass": "^3.1.0",
     "gulp-uglify": "^3.0.0",
     "imagemin-pngquant": "^5.0.1",
+    "jquery": "^3.2.1",
     "jshint": "^2.9.5",
     "jshint-stylish": "^2.2.1"
   },
-  "dependencies": {
-    "jquery": "^3.2.1"
-  },
+  "dependencies": {},
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"

@@ -44,7 +44,7 @@ gulp.task('sass-prod', function() {
 // concat js, lib folder files come first
 gulp.task('js', [], function() {
     return gulp.src([
-            'node_modules/jquery/dist/jquery.slim.min.js',
+            'node_modules/jquery/dist/jquery.min.js',
             src + '/js/lib/*.js',
             src + '/js/**/*.js',
             notjssrc
