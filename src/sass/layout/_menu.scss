@@ -58,9 +58,9 @@
     }
 
     .nav__item--active {
-        background: $blue-light;
-        font-weight: 700;
+        background-color: $blue-light;
         border-radius: 5px;
         text-shadow: none;
+        transition: background-color 0.5s ease;
     }
 }
