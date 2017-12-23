@@ -11,7 +11,6 @@
         // smoothscroll
         $(".nav .nav__item a").click(function(event) {
             if (this.hash !== "") {
-                console.log(this.hash);
                 event.preventDefault();
 
                 var hash = this.hash;
@@ -26,7 +25,7 @@
 
 
 function changeNavActiveOnScroll(event) {
-    var scrollPos = $(document).scrollTop();
+    var scrollPos = $(document).scrollTop() + 1;
     $('.nav .nav__item a').each(function () {
         var currLink = $(this);
         var refElement = $(currLink.attr("href"));
