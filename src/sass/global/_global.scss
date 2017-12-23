@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+a, button, input, textarea {
+    outline: none!important;
+}
+
 body {
     font-family: 'Nunito', sans-serif;
     background: $white-dark;
@@ -91,4 +95,10 @@ code {
   font-size: 1.25em;
   @include linearGradientHorizontal(rgba($black, 0.05), rgba($black, 0));
   box-shadow: 1em 0 1em rgba($black, 0.05) inset;
+}
+
+pre {
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    word-wrap: break-word;
 }
