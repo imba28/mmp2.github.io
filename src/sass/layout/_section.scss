@@ -56,4 +56,8 @@ main {
   .section__article--full {
     flex: 0 0 100%;
   }
+
+  .section__article--rest {
+    flex: 1 1;
+  }
 }
