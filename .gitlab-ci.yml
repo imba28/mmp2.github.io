@@ -1,0 +1,11 @@
+pages:
+    baseurl: ""
+    script:
+        - gem install jekyll
+        - npm install
+        - jekyll build -s 'src' -d public
+    artifacts:
+    paths:
+        - public
+    only:
+    - master
