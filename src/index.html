@@ -405,7 +405,7 @@
         <section id="elements" class="section">
             <h1>Elemente</h1>
             <section>
-                <h2>Inputs</h2>
+                <h2>Form Elemente</h2>
                 <p>
                     Inputs und Buttons in Formularen sollten sich an diese Vorgaben halten.
                 </p>
@@ -436,6 +436,22 @@
                             Button mit Spinner Animation
                         </p>
                         <button class="btn btn--spinner btn--spinner--rotate" data-icon="spinner">Senden</button>
+                        <p>
+                            Checkbox
+                        </p>
+                        <div class="input__container">
+                            <label>
+                                <input class="input__checkbox" type="checkbox"/>
+                                Ich habe die <a href="javascript:void(0)">AGBs</a> gelesen und stimme zu.
+                            </label>
+                        </div>
+                        <p>
+                            Radio Buttons
+                        </p>
+                        <span class="display--block text--italic">Was möchtest du trinken?</span>
+                        <input class="input__radio" type="radio" name="a" data-label="Kaffee"/>
+                        <input class="input__radio" type="radio" name="a" data-label="Tee"/>
+                        <input class="input__radio" type="radio" name="a" data-label="Wasser"/>
                     </article>
                     <article class="exampletext section__article--rest">
                         Input mit Label
@@ -468,6 +484,18 @@ Button mit Spinner Animation (*js)
 &lt;button class="btn btn--spinner btn--spinner--rotate" data-icon="spinner"&gt;
     Senden
 &lt;/button&gt;
+</pre></code>
+
+<br />
+Checkbox (*js)
+<code class="display--block"><pre>
+&lt;input class="input__checkbox" type="checkbox" data-label="LABEL"/&gt;
+</pre></code>
+
+<br />
+Radio Button (*js)
+<code class="display--block"><pre>
+&lt;input class="input__radio" type="radio" data-label="LABEL"/&gt;
 </pre></code>
                     </article>
                 </div>
