@@ -67,6 +67,13 @@
   -webkit-transform: $transforms;
   transform: $transforms;
 }
+@mixin transform-origin($transforms) {
+  -moz-transform-origin: $transforms;
+  -o-transform-origin: $transforms;
+  -ms-transform-origin: $transforms;
+  -webkit-transform-origin: $transforms;
+  transform-origin: $transforms;
+}
 @mixin rotate ($deg) {
   @include transform(rotate(#{$deg}deg));
 }

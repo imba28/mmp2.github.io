@@ -1,6 +1,7 @@
 // Attention: You need to restart the server when adding new files here
 
 @import 'global/normalize';
+@import 'global/iconmoon';
 @import 'global/var';
 @import 'mixin';
 @import 'global/helper';
@@ -9,6 +10,7 @@
 @import 'layout/sections/helper';
 @import 'layout/sections/logo';
 @import 'layout/menu';
+@import 'global/icons';
 @import 'layout/section';
 @import 'layout/sections/typeface';
 @import 'layout/sections/hierarchy';
@@ -16,4 +18,5 @@
 @import 'layout/sections/button';
 @import 'layout/sections/link';
 @import 'layout/sections/spelling';
+@import 'layout/elements/form';
 @import 'layout/responsive';

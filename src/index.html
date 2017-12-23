@@ -343,36 +343,105 @@
         </section>
         <section id="elements" class="section">
             <h1>Elemente</h1>
+            <section>
+                <h2>Inputs</h2>
+                <p>
+                    Inputs und Buttons in Formularen sollten sich an diese Vorgaben halten.
+                </p>
+                <div class="section__container">
+                    <article class="examplecode section__article--auto">
+                        <p>
+                            Input mit Label
+                        </p>
+                        <div class="input__container">
+                            <input id="test" class="input" type="text" />
+                            <label class="input__label" for="test">Test</label>
+                        </div>
+                        <p>
+                            Input mit Button
+                        </p>
+                        <div class="input__container input__container--has-button">
+                            <input class="input" type="text" />
+                            <button class="btn btn--default">mehr <span class="icon-circle-down"></span></button>
+                        </div>
+                        <p>
+                            Input mit Button vertauscht
+                        </p>
+                        <div class="input__container input__container--has-button input__container--reverse">
+                            <input class="input" type="text" />
+                            <button class="btn btn--default"><span class="icon-search"></span> Suchen</button>
+                        </div>
+                        <p>
+                            Button mit Spinner Animation
+                        </p>
+                        <button class="btn btn--spinner btn--spinner--rotate" data-icon="spinner">Senden</button>
+                    </article>
+                    <article class="exampletext section__article--rest">
+                        Input mit Label
+                        <code class="display--block"><pre>
+&lt;div class="input__container"&gt;
+    &lt;input id="ID" class="input" type="text" /&gt;
+    &lt;label class="input__label" for="ID"&gt;
+        LABEL TEXT
+    &lt;/label&gt;
+&lt;/div&gt;</pre></code>
+                        <br />
+                        Input mit Button vertauscht
+                        <code class="display--block"><pre>
+&lt;div class="input__container input__container--has-button"&gt;
+    &lt;input class="input" type="text" /&gt;
+    &lt;button class="btn btn--default"&gt;mehr&lt;/button&gt;
+&lt;/div&gt;</pre></code>
+
+                        <br />
+                        Input mit Button
+<code class="display--block"><pre>
+&lt;div class="input__container input__container--has-button input__container--reverse"&gt;
+    &lt;input class="input" type="text" /&gt;
+    &lt;button class="btn btn--default"&gt;mehr&lt;/button&gt;
+&lt;/div&gt;</pre></code>
+
+<br />
+Button mit Spinner Animation (*js)
+<code class="display--block"><pre>
+&lt;button class="btn btn--spinner btn--spinner--rotate" data-icon="spinner"&gt;
+    Senden
+&lt;/button&gt;
+</pre></code>
+                    </article>
+                </div>
+            </section>
+
             <h2>Buttons</h2>
             <div class="section__description">Für die meisten Buttons in unserem Projekt wird der blaue Button benutzt. Als zweite farbliche etwas zürckhaltende Alternative kann ein grauer Button genutzt werden. Der rote Button sollte ausschlieslich an Stellen genutzt werden wo der Benutzer
                 eine riskante Aktion, wie etwa das Löschen von Dingen, ausführt. </div>
             <div class="section__container--buttons">
                 <article class="section__article--quart">
-                    <div class="btn">
+                    <div class="btn__container">
                         <div class="btn__type">
                             Default button
                         </div>
-                        <button class="btn--default">Button--default</button>
+                        <button class="btn btn--default">Button--default</button>
                         <p class="code__container">class="btn--default"</p>
                         <code>&lt;button class=&quot;btn--default&quot;&gt;&lt;/button&gt;</code>
                     </div>
                 </article>
                 <article class="section__article--quart">
-                    <div class="btn">
+                    <div class="btn__container">
                         <div class="btn__type">
                             Secondary button
                         </div>
-                        <button class="btn--secondary">Button--secondary</button>
+                        <button class="btn btn--secondary">Button--secondary</button>
                         <p class="code__container">class="btn--secondary"</p>
                         <code>&lt;button class=&quot;btn--secondary&quot;&gt;&lt;/button&gt;</code>
                     </div>
                 </article>
                 <article class="section__article--quart">
-                    <div class="btn">
+                    <div class="btn__container">
                         <div class="btn__type">
                             Red button
                         </div>
-                        <button class="btn--red">Button--red</button>
+                        <button class="btn btn--red">Button--red</button>
                         <p class="code__container">class="btn--red"</p>
                         <code>&lt;button class=&quot;btn--red&quot;&gt;&lt;/button&gt;</code>
                     </div>
