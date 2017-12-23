@@ -1,11 +1,8 @@
 pages:
-    baseurl: ""
-    script:
-        - gem install jekyll
-        - npm install
-        - jekyll build -s 'src' -d public
-    artifacts:
+  script:
+  - bundle install
+  - npm install
+  - bundle exec jekyll build -d public
+  artifacts:
     paths:
-        - public
-    only:
-    - master
+    - public
