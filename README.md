@@ -1,4 +1,4 @@
-# MMP2 Styleguide
+# task-o-mat Styleguide
 ## Usage
 
 `npm install`
@@ -16,14 +16,14 @@
 - [x] CSS Methodology
     - [x] Code Style
     - [x] Class naming conventions
-- [ ] Components
+- [x] Components
     - [x] Buttons
     - [x] Links
     - [x] Headings
     - [x] Code
     - [x] Forms
     - [x] Input
-    - [ ] Navs
+    - [x] Navs
     - [x] Media Block
 - [x] Helper
     - [x] Icons
