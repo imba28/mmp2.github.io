@@ -95,9 +95,13 @@ code {
 .exampletext {
   padding: 1em;
   margin-bottom: 0;
-  font-size: 1.25em;
+  font-size: 1em;
   @include linearGradientHorizontal(rgba($black, 0.05), rgba($black, 0));
   box-shadow: 1em 0 1em rgba($black, 0.05) inset;
+
+  code {
+    margin-top: .5em;
+  }
 }
 
 pre {

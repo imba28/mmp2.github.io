@@ -10,12 +10,16 @@
   }
 
   .exampletext {
-    padding-top: 2em;
     font-size: 1em;
   }
 
-  #text-effects > h2 {
-    margin-top: 0;
+  #text-effects {
+    .exampletext {
+      padding-top: 2em;
+    }
+    h2 {
+      margin-top: 0;
+    }
   }
 
   #grid {
