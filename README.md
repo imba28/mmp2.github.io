@@ -8,7 +8,7 @@
 
 ## TODO
 
-- [ ] Introduction
+- [x] Introduction
 - [x] Typography
 - [x] Colors
 - [x] Logo
